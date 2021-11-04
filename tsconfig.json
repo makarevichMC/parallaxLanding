@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "es7","dom"],
+    "typeRoots" : ["node_modules/@types", "src/types"],
+    "baseUrl": "src",
+    "paths": {
+      "@scripts/*": ["scripts/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "typeAcquisition": { "enable": true }
+}
