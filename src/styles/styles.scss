@@ -210,7 +210,7 @@ $background-color: #0B1D26;
         min-width: 830px;
 
         img {
-            width: 100%;
+            width: 110%;
         }
     }
 
@@ -229,10 +229,12 @@ $background-color: #0B1D26;
         font-weight: 500;
         color: $main-text-color;
         position: relative;
+        font-size: vw(16);
 
         svg {
             position: absolute;
-            left: 100px;
+            left: vw(100);
+            height: vw(20);
         }
 
         @extend %link-hover;
